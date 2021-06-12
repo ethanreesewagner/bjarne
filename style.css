@@ -1,0 +1,74 @@
+#person {
+    width:175px;
+    border-radius: 50%;
+}
+body{
+   margin-left:100;
+    margin-right:100;
+    background-image:linear-gradient(lightgreen, blue);
+}
+center{
+    font-family:fantasy;
+}
+#code{
+    margin-left:100px;
+    font-family: monospace;
+}
+#hour{
+    margin-right:"50px";
+}
+.lightblue{
+    color:aqua;
+}
+html{
+  scroll-behavior: smooth;  
+}
+.menu{
+    width:100px;
+    margin-top:0px;
+    top:0px;
+    cursor:pointer;
+    z-index: 10;
+    position:fixed;
+    background: white;
+}
+#homepage{
+    margin-top: 50px;
+    padding:50px;
+}
+#white{
+    color:white;
+}
+.link{
+    margin-top:100px;
+    display: inline;
+padding-left: 33px;
+padding right: 25px;
+font-family: fantasy;
+font-size 20px;
+}
+.link:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    transition: transform .2s;
+    transform: scale(0.75);
+}
+a:hover{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+#contact iframe{
+    width: 100%;
+}
+
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+section{
+    margin-top:100px;
+}
